@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    overflow: hidden;
+    margin:0;
+    background-color: #2b88f0;
+}
+
+h3 {text-align: center;
+    color:white;
+    margin:20x 0 40px;
+}
+#textarea {width: 90%;
+    border:0;
+    height:100px;
+    padding:10px;
+    font-size: 16px;
+    margin: 0 15px 10px;
+
+}
+.tag{background-color: #f0932b;
+border-radius: 15px;
+color: azure;
+padding:10px;
+margin-left: 5px;}
+
+#tags{margin:10px 50px 10px ;
+}
+
+.tag.highlights {background-color: blue;
+   }
